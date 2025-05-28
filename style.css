@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f8fc;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0057ff; /* blue */
+  font-size: 2.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.coming-soon {
+  font-weight: bold;
+  color: #f5a623; /* yellow */
+  margin-bottom: 20px;
+}
+
+.email-form input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.follow {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.socials a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #0057ff;
+  font-weight: bold;
+}
